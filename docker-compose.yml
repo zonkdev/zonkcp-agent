@@ -1,0 +1,40 @@
+version: "3.7"
+
+#Docker Networks
+networks:
+  default-network:
+    driver: bridge
+
+#Docker Services
+services:
+  #Nginx Service
+  nginx:
+    build:
+      context: .
+      dockerfile: ./docker/nginx.dockerfile
+    container_name: nginx
+    ports:
+      - 8808:8808
+      - 80:80
+    volumes:
+      - ./sites:/var/www/html:delegated
+      - ./helpers:/usr/share/nginx/html:delegated
+      - ./docker/nginx/conf:/etc/nginx/conf.d:delegated
+      - ./docker/nginx/log:/var/log/nginx:delegated
+    depends_on:
+      - php
+    networks:
+      - default-network
+  #Php Service
+  php:
+    build:
+      context: .
+      dockerfile: ./docker/php.dockerfile
+    container_name: php
+    volumes:
+      - ./helpers:/usr/share/nginx/html:delegated
+      - ./docker/supervisord/log:/var/log/supervisord:delegated
+    env_file:
+      - .env
+    networks:
+      - default-network

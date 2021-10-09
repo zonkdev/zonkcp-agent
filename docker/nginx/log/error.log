@@ -1,0 +1,920 @@
+2021/10/09 14:26:45 [notice] 1#1: using the "epoll" event method
+2021/10/09 14:26:45 [notice] 1#1: nginx/1.20.1
+2021/10/09 14:26:45 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 14:26:45 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 14:26:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 14:26:45 [notice] 1#1: start worker processes
+2021/10/09 14:26:45 [notice] 1#1: start worker process 33
+2021/10/09 14:26:45 [notice] 1#1: start worker process 34
+2021/10/09 14:26:45 [notice] 1#1: start worker process 35
+2021/10/09 14:26:45 [notice] 1#1: start worker process 36
+2021/10/09 14:28:04 [error] 34#34: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8888", referrer: "http://127.0.0.1:8888/"
+2021/10/09 14:33:08 [emerg] 63#63: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:33:08 [emerg] 63#63: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:33:08 [notice] 63#63: try again to bind() after 500ms
+2021/10/09 14:33:08 [emerg] 63#63: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:33:08 [emerg] 63#63: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:33:08 [notice] 63#63: try again to bind() after 500ms
+2021/10/09 14:33:08 [emerg] 63#63: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:33:08 [emerg] 63#63: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:33:08 [notice] 63#63: try again to bind() after 500ms
+2021/10/09 14:33:08 [emerg] 63#63: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:33:08 [emerg] 63#63: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:33:08 [notice] 63#63: try again to bind() after 500ms
+2021/10/09 14:33:08 [emerg] 63#63: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:33:08 [emerg] 63#63: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:33:08 [notice] 63#63: try again to bind() after 500ms
+2021/10/09 14:33:08 [emerg] 63#63: still could not bind()
+2021/10/09 14:33:42 [notice] 65#65: signal process started
+2021/10/09 14:33:42 [notice] 1#1: signal 15 (SIGTERM) received from 65, exiting
+2021/10/09 14:33:42 [notice] 33#33: exiting
+2021/10/09 14:33:42 [notice] 33#33: exit
+2021/10/09 14:33:42 [notice] 34#34: exiting
+2021/10/09 14:33:42 [notice] 35#35: exiting
+2021/10/09 14:33:42 [notice] 36#36: exiting
+2021/10/09 14:33:42 [notice] 34#34: exit
+2021/10/09 14:33:42 [notice] 35#35: exit
+2021/10/09 14:33:42 [notice] 36#36: exit
+2021/10/09 14:33:42 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/10/09 14:33:42 [notice] 1#1: worker process 35 exited with code 0
+2021/10/09 14:33:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:33:42 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/10/09 14:33:42 [notice] 1#1: worker process 33 exited with code 0
+2021/10/09 14:33:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:33:42 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/10/09 14:33:42 [notice] 1#1: worker process 34 exited with code 0
+2021/10/09 14:33:42 [notice] 1#1: worker process 36 exited with code 0
+2021/10/09 14:33:42 [notice] 1#1: exit
+2021/10/09 14:34:20 [notice] 1#1: using the "epoll" event method
+2021/10/09 14:34:20 [notice] 1#1: nginx/1.20.1
+2021/10/09 14:34:20 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 14:34:20 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 14:34:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 14:34:20 [notice] 1#1: start worker processes
+2021/10/09 14:34:20 [notice] 1#1: start worker process 24
+2021/10/09 14:34:20 [notice] 1#1: start worker process 25
+2021/10/09 14:34:20 [notice] 1#1: start worker process 26
+2021/10/09 14:34:20 [notice] 1#1: start worker process 27
+2021/10/09 14:35:14 [notice] 40#40: signal process started
+2021/10/09 14:35:14 [notice] 1#1: signal 10 (SIGUSR1) received from 40, reopening logs
+2021/10/09 14:35:14 [notice] 1#1: reopening logs
+2021/10/09 14:35:14 [notice] 25#25: reopening logs
+2021/10/09 14:35:14 [notice] 24#24: reopening logs
+2021/10/09 14:35:14 [notice] 26#26: reopening logs
+2021/10/09 14:35:14 [notice] 27#27: reopening logs
+2021/10/09 14:36:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 14:36:12 [notice] 25#25: gracefully shutting down
+2021/10/09 14:36:12 [notice] 25#25: exiting
+2021/10/09 14:36:12 [notice] 26#26: gracefully shutting down
+2021/10/09 14:36:12 [notice] 26#26: exiting
+2021/10/09 14:36:12 [notice] 26#26: exit
+2021/10/09 14:36:12 [notice] 24#24: gracefully shutting down
+2021/10/09 14:36:12 [notice] 24#24: exiting
+2021/10/09 14:36:12 [notice] 27#27: gracefully shutting down
+2021/10/09 14:36:12 [notice] 27#27: exiting
+2021/10/09 14:36:12 [notice] 25#25: exit
+2021/10/09 14:36:12 [notice] 24#24: exit
+2021/10/09 14:36:12 [notice] 27#27: exit
+2021/10/09 14:36:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/09 14:36:12 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 14:36:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:36:12 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 14:36:12 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 14:36:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:36:12 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 14:36:12 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 14:36:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:36:12 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/10/09 14:36:12 [notice] 1#1: worker process 27 exited with code 0
+2021/10/09 14:36:12 [notice] 1#1: exit
+2021/10/09 14:38:09 [notice] 1#1: using the "epoll" event method
+2021/10/09 14:38:09 [notice] 1#1: nginx/1.20.1
+2021/10/09 14:38:09 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 14:38:09 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 14:38:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 14:38:09 [notice] 1#1: start worker processes
+2021/10/09 14:38:09 [notice] 1#1: start worker process 24
+2021/10/09 14:38:09 [notice] 1#1: start worker process 25
+2021/10/09 14:38:09 [notice] 1#1: start worker process 26
+2021/10/09 14:38:09 [notice] 1#1: start worker process 27
+2021/10/09 14:45:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 14:45:53 [notice] 26#26: gracefully shutting down
+2021/10/09 14:45:53 [notice] 24#24: gracefully shutting down
+2021/10/09 14:45:53 [notice] 25#25: gracefully shutting down
+2021/10/09 14:45:53 [notice] 25#25: exiting
+2021/10/09 14:45:53 [notice] 27#27: gracefully shutting down
+2021/10/09 14:45:53 [notice] 26#26: exiting
+2021/10/09 14:45:53 [notice] 24#24: exiting
+2021/10/09 14:45:53 [notice] 25#25: exit
+2021/10/09 14:45:53 [notice] 27#27: exiting
+2021/10/09 14:45:53 [notice] 26#26: exit
+2021/10/09 14:45:53 [notice] 24#24: exit
+2021/10/09 14:45:53 [notice] 27#27: exit
+2021/10/09 14:45:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 14:45:53 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 14:45:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:45:53 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/09 14:45:53 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 14:45:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:45:53 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/10/09 14:45:53 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 14:45:53 [notice] 1#1: worker process 27 exited with code 0
+2021/10/09 14:45:53 [notice] 1#1: exit
+2021/10/09 14:46:09 [notice] 1#1: using the "epoll" event method
+2021/10/09 14:46:09 [notice] 1#1: nginx/1.20.1
+2021/10/09 14:46:09 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 14:46:09 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 14:46:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 14:46:09 [notice] 1#1: start worker processes
+2021/10/09 14:46:09 [notice] 1#1: start worker process 24
+2021/10/09 14:46:09 [notice] 1#1: start worker process 25
+2021/10/09 14:46:09 [notice] 1#1: start worker process 26
+2021/10/09 14:46:09 [notice] 1#1: start worker process 27
+2021/10/09 14:48:06 [error] 24#24: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "example.domain.com:8888", referrer: "http://example.domain.com:8888/"
+2021/10/09 14:50:29 [warn] 28#28: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/10/09 14:50:29 [warn] 28#28: conflicting server name "localhost" on [::]:80, ignored
+2021/10/09 14:50:29 [emerg] 28#28: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:50:29 [emerg] 28#28: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:50:29 [notice] 28#28: try again to bind() after 500ms
+2021/10/09 14:50:29 [emerg] 28#28: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:50:29 [emerg] 28#28: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:50:29 [notice] 28#28: try again to bind() after 500ms
+2021/10/09 14:50:29 [emerg] 28#28: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:50:29 [emerg] 28#28: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:50:29 [notice] 28#28: try again to bind() after 500ms
+2021/10/09 14:50:29 [emerg] 28#28: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:50:29 [emerg] 28#28: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:50:29 [notice] 28#28: try again to bind() after 500ms
+2021/10/09 14:50:29 [emerg] 28#28: bind() to 0.0.0.0:80 failed (98: Address in use)
+2021/10/09 14:50:29 [emerg] 28#28: bind() to [::]:80 failed (98: Address in use)
+2021/10/09 14:50:29 [notice] 28#28: try again to bind() after 500ms
+2021/10/09 14:50:29 [emerg] 28#28: still could not bind()
+2021/10/09 14:50:42 [warn] 42#42: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/10/09 14:50:42 [warn] 42#42: conflicting server name "localhost" on [::]:80, ignored
+2021/10/09 14:50:42 [notice] 42#42: signal process started
+2021/10/09 14:50:42 [notice] 1#1: signal 1 (SIGHUP) received from 42, reconfiguring
+2021/10/09 14:50:42 [notice] 1#1: reconfiguring
+2021/10/09 14:50:42 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/10/09 14:50:42 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2021/10/09 14:50:42 [notice] 1#1: using the "epoll" event method
+2021/10/09 14:50:42 [notice] 1#1: start worker processes
+2021/10/09 14:50:42 [notice] 1#1: start worker process 50
+2021/10/09 14:50:42 [notice] 1#1: start worker process 51
+2021/10/09 14:50:42 [notice] 1#1: start worker process 52
+2021/10/09 14:50:42 [notice] 1#1: start worker process 53
+2021/10/09 14:50:42 [notice] 24#24: gracefully shutting down
+2021/10/09 14:50:42 [notice] 25#25: gracefully shutting down
+2021/10/09 14:50:42 [notice] 26#26: gracefully shutting down
+2021/10/09 14:50:42 [notice] 26#26: exiting
+2021/10/09 14:50:42 [notice] 27#27: gracefully shutting down
+2021/10/09 14:50:42 [notice] 25#25: exiting
+2021/10/09 14:50:42 [notice] 26#26: exit
+2021/10/09 14:50:42 [notice] 27#27: exiting
+2021/10/09 14:50:42 [notice] 25#25: exit
+2021/10/09 14:50:42 [notice] 27#27: exit
+2021/10/09 14:50:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/09 14:50:42 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 14:50:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:50:42 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/10/09 14:50:42 [notice] 1#1: worker process 27 exited with code 0
+2021/10/09 14:50:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:50:42 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 14:50:42 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 14:50:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:50:55 [notice] 24#24: exiting
+2021/10/09 14:50:55 [notice] 24#24: exit
+2021/10/09 14:50:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 14:50:55 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 14:50:55 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:51:37 [notice] 54#54: signal process started
+2021/10/09 14:51:37 [notice] 1#1: signal 1 (SIGHUP) received from 54, reconfiguring
+2021/10/09 14:51:37 [notice] 1#1: reconfiguring
+2021/10/09 14:51:37 [notice] 1#1: using the "epoll" event method
+2021/10/09 14:51:37 [notice] 1#1: start worker processes
+2021/10/09 14:51:37 [notice] 1#1: start worker process 60
+2021/10/09 14:51:37 [notice] 1#1: start worker process 61
+2021/10/09 14:51:37 [notice] 1#1: start worker process 62
+2021/10/09 14:51:37 [notice] 1#1: start worker process 63
+2021/10/09 14:51:37 [notice] 50#50: gracefully shutting down
+2021/10/09 14:51:37 [notice] 51#51: gracefully shutting down
+2021/10/09 14:51:37 [notice] 51#51: exiting
+2021/10/09 14:51:37 [notice] 52#52: gracefully shutting down
+2021/10/09 14:51:37 [notice] 52#52: exiting
+2021/10/09 14:51:37 [notice] 53#53: gracefully shutting down
+2021/10/09 14:51:37 [notice] 51#51: exit
+2021/10/09 14:51:37 [notice] 52#52: exit
+2021/10/09 14:51:37 [notice] 53#53: exiting
+2021/10/09 14:51:37 [notice] 53#53: exit
+2021/10/09 14:51:37 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2021/10/09 14:51:37 [notice] 1#1: worker process 51 exited with code 0
+2021/10/09 14:51:37 [notice] 1#1: worker process 53 exited with code 0
+2021/10/09 14:51:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:51:37 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2021/10/09 14:51:37 [notice] 1#1: worker process 52 exited with code 0
+2021/10/09 14:51:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:51:41 [notice] 50#50: exiting
+2021/10/09 14:51:41 [notice] 50#50: exit
+2021/10/09 14:51:42 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2021/10/09 14:51:42 [notice] 1#1: worker process 50 exited with code 0
+2021/10/09 14:51:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 14:55:33 [error] 61#61: *11 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:05:41 [notice] 64#64: signal process started
+2021/10/09 15:05:41 [notice] 1#1: signal 1 (SIGHUP) received from 64, reconfiguring
+2021/10/09 15:05:41 [notice] 1#1: reconfiguring
+2021/10/09 15:05:41 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:05:41 [notice] 1#1: start worker processes
+2021/10/09 15:05:41 [notice] 1#1: start worker process 70
+2021/10/09 15:05:41 [notice] 1#1: start worker process 71
+2021/10/09 15:05:41 [notice] 1#1: start worker process 72
+2021/10/09 15:05:41 [notice] 1#1: start worker process 73
+2021/10/09 15:05:41 [notice] 60#60: gracefully shutting down
+2021/10/09 15:05:41 [notice] 61#61: gracefully shutting down
+2021/10/09 15:05:41 [notice] 61#61: exiting
+2021/10/09 15:05:41 [notice] 62#62: gracefully shutting down
+2021/10/09 15:05:41 [notice] 63#63: gracefully shutting down
+2021/10/09 15:05:41 [notice] 60#60: exiting
+2021/10/09 15:05:41 [notice] 61#61: exit
+2021/10/09 15:05:41 [notice] 62#62: exiting
+2021/10/09 15:05:41 [notice] 63#63: exiting
+2021/10/09 15:05:41 [notice] 60#60: exit
+2021/10/09 15:05:41 [notice] 62#62: exit
+2021/10/09 15:05:41 [notice] 63#63: exit
+2021/10/09 15:05:41 [notice] 1#1: signal 17 (SIGCHLD) received from 61
+2021/10/09 15:05:41 [notice] 1#1: worker process 61 exited with code 0
+2021/10/09 15:05:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:05:41 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2021/10/09 15:05:41 [notice] 1#1: worker process 60 exited with code 0
+2021/10/09 15:05:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:05:41 [notice] 1#1: signal 17 (SIGCHLD) received from 63
+2021/10/09 15:05:41 [notice] 1#1: worker process 62 exited with code 0
+2021/10/09 15:05:41 [notice] 1#1: worker process 63 exited with code 0
+2021/10/09 15:05:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:05:49 [error] 70#70: *16 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:05:50 [error] 70#70: *16 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:05:56 [error] 70#70: *16 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:05:56 [error] 70#70: *16 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:06:49 [error] 70#70: *16 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:06:56 [error] 70#70: *16 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:02 [error] 70#70: *21 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:14 [notice] 74#74: signal process started
+2021/10/09 15:13:14 [notice] 1#1: signal 1 (SIGHUP) received from 74, reconfiguring
+2021/10/09 15:13:14 [notice] 1#1: reconfiguring
+2021/10/09 15:13:14 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:13:14 [notice] 1#1: start worker processes
+2021/10/09 15:13:14 [notice] 1#1: start worker process 81
+2021/10/09 15:13:14 [notice] 1#1: start worker process 82
+2021/10/09 15:13:14 [notice] 1#1: start worker process 83
+2021/10/09 15:13:14 [notice] 1#1: start worker process 84
+2021/10/09 15:13:14 [notice] 70#70: gracefully shutting down
+2021/10/09 15:13:14 [notice] 71#71: gracefully shutting down
+2021/10/09 15:13:14 [notice] 72#72: gracefully shutting down
+2021/10/09 15:13:14 [notice] 73#73: gracefully shutting down
+2021/10/09 15:13:14 [notice] 71#71: exiting
+2021/10/09 15:13:14 [notice] 72#72: exiting
+2021/10/09 15:13:14 [notice] 73#73: exiting
+2021/10/09 15:13:14 [notice] 71#71: exit
+2021/10/09 15:13:14 [notice] 72#72: exit
+2021/10/09 15:13:14 [notice] 73#73: exit
+2021/10/09 15:13:14 [notice] 1#1: signal 17 (SIGCHLD) received from 71
+2021/10/09 15:13:14 [notice] 1#1: worker process 71 exited with code 0
+2021/10/09 15:13:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:13:14 [notice] 1#1: signal 17 (SIGCHLD) received from 73
+2021/10/09 15:13:14 [notice] 1#1: worker process 73 exited with code 0
+2021/10/09 15:13:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:13:14 [notice] 1#1: signal 17 (SIGCHLD) received from 72
+2021/10/09 15:13:14 [notice] 1#1: worker process 72 exited with code 0
+2021/10/09 15:13:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:13:32 [error] 70#70: *22 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:32 [notice] 70#70: exiting
+2021/10/09 15:13:32 [notice] 70#70: exit
+2021/10/09 15:13:32 [notice] 1#1: signal 17 (SIGCHLD) received from 70
+2021/10/09 15:13:32 [notice] 1#1: worker process 70 exited with code 0
+2021/10/09 15:13:32 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:13:32 [error] 81#81: *23 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:34 [error] 81#81: *23 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:34 [error] 81#81: *23 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:35 [error] 81#81: *23 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:37 [error] 81#81: *23 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:38 [error] 81#81: *23 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:39 [error] 81#81: *23 open() "/var/www/html/example.domain.com/gtgtg" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /gtgtg HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:43 [error] 81#81: *23 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:13:47 [error] 81#81: *23 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:14:02 [notice] 85#85: signal process started
+2021/10/09 15:14:02 [notice] 1#1: signal 1 (SIGHUP) received from 85, reconfiguring
+2021/10/09 15:14:02 [notice] 1#1: reconfiguring
+2021/10/09 15:14:02 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:14:02 [notice] 1#1: start worker processes
+2021/10/09 15:14:02 [notice] 1#1: start worker process 91
+2021/10/09 15:14:02 [notice] 1#1: start worker process 92
+2021/10/09 15:14:02 [notice] 1#1: start worker process 93
+2021/10/09 15:14:02 [notice] 1#1: start worker process 94
+2021/10/09 15:14:02 [notice] 81#81: gracefully shutting down
+2021/10/09 15:14:02 [notice] 84#84: gracefully shutting down
+2021/10/09 15:14:02 [notice] 84#84: exiting
+2021/10/09 15:14:02 [notice] 83#83: gracefully shutting down
+2021/10/09 15:14:02 [notice] 82#82: gracefully shutting down
+2021/10/09 15:14:02 [notice] 82#82: exiting
+2021/10/09 15:14:02 [notice] 84#84: exit
+2021/10/09 15:14:02 [notice] 83#83: exiting
+2021/10/09 15:14:02 [notice] 82#82: exit
+2021/10/09 15:14:02 [notice] 83#83: exit
+2021/10/09 15:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 84
+2021/10/09 15:14:02 [notice] 1#1: worker process 84 exited with code 0
+2021/10/09 15:14:02 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 83
+2021/10/09 15:14:02 [notice] 1#1: worker process 82 exited with code 0
+2021/10/09 15:14:02 [notice] 1#1: worker process 83 exited with code 0
+2021/10/09 15:14:02 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:14:02 [notice] 1#1: signal 17 (SIGCHLD) received from 82
+2021/10/09 15:14:11 [error] 81#81: *24 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:14:11 [notice] 81#81: exiting
+2021/10/09 15:14:11 [notice] 81#81: exit
+2021/10/09 15:14:11 [notice] 1#1: signal 17 (SIGCHLD) received from 81
+2021/10/09 15:14:11 [notice] 1#1: worker process 81 exited with code 0
+2021/10/09 15:14:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:15:48 [notice] 95#95: signal process started
+2021/10/09 15:15:48 [notice] 1#1: signal 1 (SIGHUP) received from 95, reconfiguring
+2021/10/09 15:15:48 [notice] 1#1: reconfiguring
+2021/10/09 15:15:48 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:15:48 [notice] 1#1: start worker processes
+2021/10/09 15:15:48 [notice] 1#1: start worker process 103
+2021/10/09 15:15:48 [notice] 1#1: start worker process 104
+2021/10/09 15:15:48 [notice] 1#1: start worker process 105
+2021/10/09 15:15:48 [notice] 1#1: start worker process 106
+2021/10/09 15:15:48 [notice] 92#92: gracefully shutting down
+2021/10/09 15:15:48 [notice] 94#94: gracefully shutting down
+2021/10/09 15:15:48 [notice] 93#93: gracefully shutting down
+2021/10/09 15:15:48 [notice] 93#93: exiting
+2021/10/09 15:15:48 [notice] 91#91: gracefully shutting down
+2021/10/09 15:15:48 [notice] 91#91: exiting
+2021/10/09 15:15:48 [notice] 92#92: exiting
+2021/10/09 15:15:48 [notice] 94#94: exiting
+2021/10/09 15:15:48 [notice] 93#93: exit
+2021/10/09 15:15:48 [notice] 91#91: exit
+2021/10/09 15:15:48 [notice] 92#92: exit
+2021/10/09 15:15:48 [notice] 94#94: exit
+2021/10/09 15:15:48 [notice] 1#1: signal 17 (SIGCHLD) received from 94
+2021/10/09 15:15:48 [notice] 1#1: worker process 92 exited with code 0
+2021/10/09 15:15:48 [notice] 1#1: worker process 94 exited with code 0
+2021/10/09 15:15:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:15:48 [notice] 1#1: signal 17 (SIGCHLD) received from 93
+2021/10/09 15:15:48 [notice] 1#1: worker process 91 exited with code 0
+2021/10/09 15:15:48 [notice] 1#1: worker process 93 exited with code 0
+2021/10/09 15:15:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:15:55 [error] 103#103: *30 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:15:56 [error] 103#103: *30 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:15:56 [error] 103#103: *30 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:15:57 [error] 103#103: *30 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:16:02 [error] 103#103: *28 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:17:16 [notice] 107#107: signal process started
+2021/10/09 15:17:16 [notice] 1#1: signal 1 (SIGHUP) received from 107, reconfiguring
+2021/10/09 15:17:16 [notice] 1#1: reconfiguring
+2021/10/09 15:17:16 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:17:16 [notice] 1#1: start worker processes
+2021/10/09 15:17:16 [notice] 1#1: start worker process 113
+2021/10/09 15:17:16 [notice] 1#1: start worker process 114
+2021/10/09 15:17:16 [notice] 1#1: start worker process 115
+2021/10/09 15:17:16 [notice] 1#1: start worker process 116
+2021/10/09 15:17:16 [notice] 103#103: gracefully shutting down
+2021/10/09 15:17:16 [notice] 103#103: exiting
+2021/10/09 15:17:16 [notice] 104#104: gracefully shutting down
+2021/10/09 15:17:16 [notice] 104#104: exiting
+2021/10/09 15:17:16 [notice] 105#105: gracefully shutting down
+2021/10/09 15:17:16 [notice] 106#106: gracefully shutting down
+2021/10/09 15:17:16 [notice] 106#106: exiting
+2021/10/09 15:17:16 [notice] 103#103: exit
+2021/10/09 15:17:16 [notice] 104#104: exit
+2021/10/09 15:17:16 [notice] 105#105: exiting
+2021/10/09 15:17:16 [notice] 106#106: exit
+2021/10/09 15:17:16 [notice] 105#105: exit
+2021/10/09 15:17:17 [notice] 1#1: signal 17 (SIGCHLD) received from 104
+2021/10/09 15:17:17 [notice] 1#1: worker process 104 exited with code 0
+2021/10/09 15:17:17 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:17:17 [notice] 1#1: signal 17 (SIGCHLD) received from 106
+2021/10/09 15:17:17 [notice] 1#1: worker process 105 exited with code 0
+2021/10/09 15:17:17 [notice] 1#1: worker process 106 exited with code 0
+2021/10/09 15:17:17 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:17:17 [notice] 1#1: signal 17 (SIGCHLD) received from 103
+2021/10/09 15:17:17 [notice] 1#1: worker process 103 exited with code 0
+2021/10/09 15:17:17 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:17:22 [error] 114#114: *33 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:17:22 [error] 114#114: *33 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:17:24 [error] 113#113: *35 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:21:41 [notice] 117#117: signal process started
+2021/10/09 15:21:41 [notice] 1#1: signal 1 (SIGHUP) received from 117, reconfiguring
+2021/10/09 15:21:41 [notice] 1#1: reconfiguring
+2021/10/09 15:21:41 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:21:41 [notice] 1#1: start worker processes
+2021/10/09 15:21:41 [notice] 1#1: start worker process 125
+2021/10/09 15:21:41 [notice] 1#1: start worker process 126
+2021/10/09 15:21:41 [notice] 1#1: start worker process 127
+2021/10/09 15:21:41 [notice] 1#1: start worker process 128
+2021/10/09 15:21:41 [notice] 113#113: gracefully shutting down
+2021/10/09 15:21:41 [notice] 114#114: gracefully shutting down
+2021/10/09 15:21:41 [notice] 114#114: exiting
+2021/10/09 15:21:41 [notice] 116#116: gracefully shutting down
+2021/10/09 15:21:41 [notice] 116#116: exiting
+2021/10/09 15:21:41 [notice] 115#115: gracefully shutting down
+2021/10/09 15:21:41 [notice] 113#113: exiting
+2021/10/09 15:21:41 [notice] 114#114: exit
+2021/10/09 15:21:41 [notice] 116#116: exit
+2021/10/09 15:21:41 [notice] 115#115: exiting
+2021/10/09 15:21:41 [notice] 113#113: exit
+2021/10/09 15:21:41 [notice] 115#115: exit
+2021/10/09 15:21:41 [notice] 1#1: signal 17 (SIGCHLD) received from 113
+2021/10/09 15:21:41 [notice] 1#1: worker process 113 exited with code 0
+2021/10/09 15:21:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:21:41 [notice] 1#1: signal 17 (SIGCHLD) received from 114
+2021/10/09 15:21:41 [notice] 1#1: worker process 114 exited with code 0
+2021/10/09 15:21:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:21:41 [notice] 1#1: signal 17 (SIGCHLD) received from 116
+2021/10/09 15:21:41 [notice] 1#1: worker process 115 exited with code 0
+2021/10/09 15:21:41 [notice] 1#1: worker process 116 exited with code 0
+2021/10/09 15:21:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:21:41 [notice] 1#1: signal 17 (SIGCHLD) received from 115
+2021/10/09 15:21:50 [error] 125#125: *37 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:21:52 [error] 125#125: *38 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:21:53 [error] 125#125: *38 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:21:55 [error] 125#125: *37 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:22:05 [error] 125#125: *37 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:25:42 [notice] 129#129: signal process started
+2021/10/09 15:25:42 [notice] 1#1: signal 1 (SIGHUP) received from 129, reconfiguring
+2021/10/09 15:25:42 [notice] 1#1: reconfiguring
+2021/10/09 15:25:42 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:25:42 [notice] 1#1: start worker processes
+2021/10/09 15:25:42 [notice] 1#1: start worker process 136
+2021/10/09 15:25:42 [notice] 1#1: start worker process 137
+2021/10/09 15:25:42 [notice] 1#1: start worker process 138
+2021/10/09 15:25:42 [notice] 1#1: start worker process 139
+2021/10/09 15:25:42 [notice] 125#125: gracefully shutting down
+2021/10/09 15:25:42 [notice] 128#128: gracefully shutting down
+2021/10/09 15:25:42 [notice] 126#126: gracefully shutting down
+2021/10/09 15:25:42 [notice] 127#127: gracefully shutting down
+2021/10/09 15:25:42 [notice] 127#127: exiting
+2021/10/09 15:25:42 [notice] 125#125: exiting
+2021/10/09 15:25:42 [notice] 128#128: exiting
+2021/10/09 15:25:42 [notice] 126#126: exiting
+2021/10/09 15:25:42 [notice] 127#127: exit
+2021/10/09 15:25:42 [notice] 125#125: exit
+2021/10/09 15:25:42 [notice] 128#128: exit
+2021/10/09 15:25:42 [notice] 126#126: exit
+2021/10/09 15:25:42 [notice] 1#1: signal 17 (SIGCHLD) received from 128
+2021/10/09 15:25:42 [notice] 1#1: worker process 128 exited with code 0
+2021/10/09 15:25:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:25:42 [notice] 1#1: signal 17 (SIGCHLD) received from 125
+2021/10/09 15:25:42 [notice] 1#1: worker process 125 exited with code 0
+2021/10/09 15:25:42 [notice] 1#1: worker process 126 exited with code 0
+2021/10/09 15:25:42 [notice] 1#1: worker process 127 exited with code 0
+2021/10/09 15:25:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:25:42 [notice] 1#1: signal 17 (SIGCHLD) received from 126
+2021/10/09 15:25:47 [error] 136#136: *40 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:25:48 [error] 136#136: *40 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:25:49 [error] 136#136: *42 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:29:08 [emerg] 140#140: a duplicate listen 0.0.0.0:80 in /etc/nginx/conf.d/example.domain.com.conf:4
+2021/10/09 15:29:29 [notice] 147#147: signal process started
+2021/10/09 15:29:29 [notice] 1#1: signal 1 (SIGHUP) received from 147, reconfiguring
+2021/10/09 15:29:29 [notice] 1#1: reconfiguring
+2021/10/09 15:29:29 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:29:29 [notice] 1#1: start worker processes
+2021/10/09 15:29:29 [notice] 1#1: start worker process 154
+2021/10/09 15:29:29 [notice] 1#1: start worker process 155
+2021/10/09 15:29:29 [notice] 1#1: start worker process 156
+2021/10/09 15:29:29 [notice] 1#1: start worker process 157
+2021/10/09 15:29:29 [notice] 136#136: gracefully shutting down
+2021/10/09 15:29:29 [notice] 138#138: gracefully shutting down
+2021/10/09 15:29:29 [notice] 137#137: gracefully shutting down
+2021/10/09 15:29:29 [notice] 137#137: exiting
+2021/10/09 15:29:29 [notice] 139#139: gracefully shutting down
+2021/10/09 15:29:29 [notice] 139#139: exiting
+2021/10/09 15:29:29 [notice] 136#136: exiting
+2021/10/09 15:29:29 [notice] 138#138: exiting
+2021/10/09 15:29:29 [notice] 137#137: exit
+2021/10/09 15:29:29 [notice] 139#139: exit
+2021/10/09 15:29:29 [notice] 136#136: exit
+2021/10/09 15:29:29 [notice] 138#138: exit
+2021/10/09 15:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 136
+2021/10/09 15:29:29 [notice] 1#1: worker process 136 exited with code 0
+2021/10/09 15:29:29 [notice] 1#1: worker process 137 exited with code 0
+2021/10/09 15:29:29 [notice] 1#1: worker process 139 exited with code 0
+2021/10/09 15:29:29 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 138
+2021/10/09 15:29:29 [notice] 1#1: worker process 138 exited with code 0
+2021/10/09 15:29:29 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:31:48 [notice] 158#158: signal process started
+2021/10/09 15:31:48 [notice] 1#1: signal 1 (SIGHUP) received from 158, reconfiguring
+2021/10/09 15:31:48 [notice] 1#1: reconfiguring
+2021/10/09 15:31:48 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:31:48 [notice] 1#1: start worker processes
+2021/10/09 15:31:48 [notice] 1#1: start worker process 165
+2021/10/09 15:31:48 [notice] 1#1: start worker process 166
+2021/10/09 15:31:48 [notice] 1#1: start worker process 167
+2021/10/09 15:31:48 [notice] 1#1: start worker process 168
+2021/10/09 15:31:48 [notice] 154#154: gracefully shutting down
+2021/10/09 15:31:48 [notice] 154#154: exiting
+2021/10/09 15:31:48 [notice] 155#155: gracefully shutting down
+2021/10/09 15:31:48 [notice] 155#155: exiting
+2021/10/09 15:31:48 [notice] 156#156: gracefully shutting down
+2021/10/09 15:31:48 [notice] 157#157: gracefully shutting down
+2021/10/09 15:31:48 [notice] 157#157: exiting
+2021/10/09 15:31:48 [notice] 154#154: exit
+2021/10/09 15:31:48 [notice] 155#155: exit
+2021/10/09 15:31:48 [notice] 156#156: exiting
+2021/10/09 15:31:48 [notice] 157#157: exit
+2021/10/09 15:31:48 [notice] 156#156: exit
+2021/10/09 15:31:49 [notice] 1#1: signal 17 (SIGCHLD) received from 154
+2021/10/09 15:31:49 [notice] 1#1: worker process 154 exited with code 0
+2021/10/09 15:31:49 [notice] 1#1: worker process 155 exited with code 0
+2021/10/09 15:31:49 [notice] 1#1: worker process 156 exited with code 0
+2021/10/09 15:31:49 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:31:49 [notice] 1#1: signal 17 (SIGCHLD) received from 156
+2021/10/09 15:31:49 [notice] 1#1: signal 17 (SIGCHLD) received from 157
+2021/10/09 15:31:49 [notice] 1#1: worker process 157 exited with code 0
+2021/10/09 15:31:49 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:31:55 [error] 165#165: *44 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:31:57 [error] 165#165: *46 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:35:33 [error] 166#166: *48 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:35:44 [error] 166#166: *48 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:36:58 [error] 165#165: *50 open() "/var/www/html/example.domain.com/fff" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /fff HTTP/1.1", host: "127.0.0.1:8888"
+2021/10/09 15:37:08 [error] 165#165: *53 open() "/var/www/html/example.domain.com/kkk" failed (2: No such file or directory), client: 172.22.0.1, server: example.domain.com, request: "GET /kkk HTTP/1.1", host: "example.domain.com:8888"
+2021/10/09 15:39:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 15:39:33 [notice] 165#165: gracefully shutting down
+2021/10/09 15:39:33 [notice] 168#168: gracefully shutting down
+2021/10/09 15:39:33 [notice] 168#168: exiting
+2021/10/09 15:39:33 [notice] 167#167: gracefully shutting down
+2021/10/09 15:39:33 [notice] 167#167: exiting
+2021/10/09 15:39:33 [notice] 166#166: gracefully shutting down
+2021/10/09 15:39:33 [notice] 165#165: exiting
+2021/10/09 15:39:33 [notice] 168#168: exit
+2021/10/09 15:39:33 [notice] 167#167: exit
+2021/10/09 15:39:33 [notice] 165#165: exit
+2021/10/09 15:39:33 [notice] 1#1: signal 17 (SIGCHLD) received from 165
+2021/10/09 15:39:33 [notice] 1#1: worker process 165 exited with code 0
+2021/10/09 15:39:33 [notice] 1#1: worker process 167 exited with code 0
+2021/10/09 15:39:33 [notice] 1#1: worker process 168 exited with code 0
+2021/10/09 15:39:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 15:39:33 [notice] 1#1: signal 17 (SIGCHLD) received from 168
+2021/10/09 15:44:12 [emerg] 1#1: unknown directive "/etc/nginx" in /etc/nginx/nginx.conf:7
+2021/10/09 15:44:46 [emerg] 1#1: unknown directive "/etc/nginx" in /etc/nginx/nginx.conf:7
+2021/10/09 15:45:35 [emerg] 1#1: unknown directive "/etc/nginx" in /etc/nginx/nginx.conf:7
+2021/10/09 15:46:20 [emerg] 1#1: unknown directive "/etc/nginx" in /etc/nginx/nginx.conf:7
+2021/10/09 15:47:12 [emerg] 1#1: unknown directive "/etc/nginx" in /etc/nginx/nginx.conf:7
+2021/10/09 15:49:29 [emerg] 1#1: unknown directive "/etc/nginx" in /etc/nginx/nginx.conf:7
+2021/10/09 15:50:20 [emerg] 1#1: unknown directive "/etc/nginx" in /etc/nginx/nginx.conf:7
+2021/10/09 15:50:56 [emerg] 1#1: "user" directive is duplicate in /etc/nginx/nginx.conf:5
+2021/10/09 15:53:15 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:53:15 [notice] 1#1: nginx/1.20.1
+2021/10/09 15:53:15 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 15:53:15 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 15:53:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 15:53:15 [notice] 1#1: start worker processes
+2021/10/09 15:53:15 [notice] 1#1: start worker process 23
+2021/10/09 15:53:15 [notice] 1#1: start worker process 24
+2021/10/09 15:53:15 [notice] 1#1: start worker process 25
+2021/10/09 15:53:15 [notice] 1#1: start worker process 26
+2021/10/09 15:53:20 [error] 23#23: *1 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: example.domain.com, request: "GET /favicon.ico HTTP/1.1", host: "example.domain.com", referrer: "http://example.domain.com/"
+2021/10/09 15:53:21 [error] 23#23: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/10/09 15:55:55 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/nginx.conf:34
+2021/10/09 15:57:38 [notice] 1#1: using the "epoll" event method
+2021/10/09 15:57:38 [notice] 1#1: nginx/1.20.1
+2021/10/09 15:57:38 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 15:57:38 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 15:57:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 15:57:38 [notice] 1#1: start worker processes
+2021/10/09 15:57:38 [notice] 1#1: start worker process 22
+2021/10/09 15:57:38 [notice] 1#1: start worker process 23
+2021/10/09 15:57:38 [notice] 1#1: start worker process 24
+2021/10/09 15:57:38 [notice] 1#1: start worker process 25
+2021/10/09 15:57:47 [error] 23#23: *4 open() "/var/www/html/example.domain.com/k" failed (2: No such file or directory), client: 172.31.0.1, server: example.domain.com, request: "GET /k HTTP/1.1", host: "example.domain.com"
+2021/10/09 15:57:52 [error] 22#22: *2 open() "/var/www/html/l" failed (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET /l HTTP/1.1", host: "127.0.0.1"
+2021/10/09 15:57:56 [error] 23#23: *4 open() "/var/www/html/example.domain.com/k" failed (2: No such file or directory), client: 172.31.0.1, server: example.domain.com, request: "GET /k HTTP/1.1", host: "example.domain.com"
+2021/10/09 15:57:56 [error] 23#23: *4 open() "/var/www/html/example.domain.com/k" failed (2: No such file or directory), client: 172.31.0.1, server: example.domain.com, request: "GET /k HTTP/1.1", host: "example.domain.com"
+2021/10/09 16:07:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 16:07:49 [notice] 22#22: gracefully shutting down
+2021/10/09 16:07:49 [notice] 23#23: gracefully shutting down
+2021/10/09 16:07:49 [notice] 24#24: gracefully shutting down
+2021/10/09 16:07:49 [notice] 25#25: gracefully shutting down
+2021/10/09 16:07:49 [notice] 22#22: exiting
+2021/10/09 16:07:49 [notice] 23#23: exiting
+2021/10/09 16:07:49 [notice] 24#24: exiting
+2021/10/09 16:07:49 [notice] 25#25: exiting
+2021/10/09 16:07:49 [notice] 22#22: exit
+2021/10/09 16:07:49 [notice] 23#23: exit
+2021/10/09 16:07:49 [notice] 24#24: exit
+2021/10/09 16:07:49 [notice] 25#25: exit
+2021/10/09 16:07:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/10/09 16:07:49 [notice] 1#1: worker process 22 exited with code 0
+2021/10/09 16:07:49 [notice] 1#1: worker process 23 exited with code 0
+2021/10/09 16:07:49 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 16:07:49 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 16:07:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 16:07:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 16:07:49 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 16:07:49 [notice] 1#1: exit
+2021/10/09 19:02:12 [notice] 1#1: using the "epoll" event method
+2021/10/09 19:02:12 [notice] 1#1: nginx/1.20.1
+2021/10/09 19:02:12 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 19:02:12 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 19:02:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 19:02:12 [notice] 1#1: start worker processes
+2021/10/09 19:02:12 [notice] 1#1: start worker process 23
+2021/10/09 19:02:12 [notice] 1#1: start worker process 24
+2021/10/09 19:02:12 [notice] 1#1: start worker process 25
+2021/10/09 19:02:12 [notice] 1#1: start worker process 26
+2021/10/09 19:02:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 19:02:29 [notice] 23#23: gracefully shutting down
+2021/10/09 19:02:29 [notice] 26#26: gracefully shutting down
+2021/10/09 19:02:29 [notice] 24#24: gracefully shutting down
+2021/10/09 19:02:29 [notice] 24#24: exiting
+2021/10/09 19:02:29 [notice] 25#25: gracefully shutting down
+2021/10/09 19:02:29 [notice] 23#23: exiting
+2021/10/09 19:02:29 [notice] 26#26: exiting
+2021/10/09 19:02:29 [notice] 24#24: exit
+2021/10/09 19:02:29 [notice] 25#25: exiting
+2021/10/09 19:02:29 [notice] 23#23: exit
+2021/10/09 19:02:29 [notice] 26#26: exit
+2021/10/09 19:02:29 [notice] 25#25: exit
+2021/10/09 19:02:29 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/09 19:02:29 [notice] 1#1: worker process 23 exited with code 0
+2021/10/09 19:02:29 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 19:02:29 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:02:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 19:02:29 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 19:02:29 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 19:02:29 [notice] 1#1: exit
+2021/10/09 19:07:51 [notice] 1#1: using the "epoll" event method
+2021/10/09 19:07:51 [notice] 1#1: nginx/1.20.1
+2021/10/09 19:07:51 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 19:07:51 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 19:07:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 19:07:51 [notice] 1#1: start worker processes
+2021/10/09 19:07:51 [notice] 1#1: start worker process 23
+2021/10/09 19:07:51 [notice] 1#1: start worker process 24
+2021/10/09 19:07:51 [notice] 1#1: start worker process 25
+2021/10/09 19:07:51 [notice] 1#1: start worker process 26
+2021/10/09 19:08:12 [notice] 27#27: signal process started
+2021/10/09 19:08:12 [notice] 1#1: signal 1 (SIGHUP) received from 27, reconfiguring
+2021/10/09 19:08:12 [notice] 1#1: reconfiguring
+2021/10/09 19:08:12 [notice] 1#1: using the "epoll" event method
+2021/10/09 19:08:12 [notice] 1#1: start worker processes
+2021/10/09 19:08:12 [notice] 1#1: start worker process 33
+2021/10/09 19:08:12 [notice] 1#1: start worker process 34
+2021/10/09 19:08:12 [notice] 1#1: start worker process 35
+2021/10/09 19:08:12 [notice] 1#1: start worker process 36
+2021/10/09 19:08:12 [notice] 23#23: gracefully shutting down
+2021/10/09 19:08:12 [notice] 23#23: exiting
+2021/10/09 19:08:12 [notice] 25#25: gracefully shutting down
+2021/10/09 19:08:12 [notice] 25#25: exiting
+2021/10/09 19:08:12 [notice] 24#24: gracefully shutting down
+2021/10/09 19:08:12 [notice] 26#26: gracefully shutting down
+2021/10/09 19:08:12 [notice] 26#26: exiting
+2021/10/09 19:08:12 [notice] 23#23: exit
+2021/10/09 19:08:12 [notice] 25#25: exit
+2021/10/09 19:08:12 [notice] 24#24: exiting
+2021/10/09 19:08:12 [notice] 26#26: exit
+2021/10/09 19:08:12 [notice] 24#24: exit
+2021/10/09 19:08:12 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/09 19:08:12 [notice] 1#1: worker process 23 exited with code 0
+2021/10/09 19:08:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:08:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/09 19:08:12 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 19:08:12 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 19:08:12 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 19:08:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:08:12 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 19:10:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 19:10:31 [notice] 33#33: gracefully shutting down
+2021/10/09 19:10:31 [notice] 33#33: exiting
+2021/10/09 19:10:31 [notice] 35#35: gracefully shutting down
+2021/10/09 19:10:31 [notice] 35#35: exiting
+2021/10/09 19:10:31 [notice] 36#36: gracefully shutting down
+2021/10/09 19:10:31 [notice] 36#36: exiting
+2021/10/09 19:10:31 [notice] 34#34: gracefully shutting down
+2021/10/09 19:10:31 [notice] 34#34: exiting
+2021/10/09 19:10:31 [notice] 33#33: exit
+2021/10/09 19:10:31 [notice] 35#35: exit
+2021/10/09 19:10:31 [notice] 36#36: exit
+2021/10/09 19:10:31 [notice] 34#34: exit
+2021/10/09 19:10:31 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/10/09 19:10:31 [notice] 1#1: worker process 33 exited with code 0
+2021/10/09 19:10:31 [notice] 1#1: worker process 35 exited with code 0
+2021/10/09 19:10:31 [notice] 1#1: worker process 36 exited with code 0
+2021/10/09 19:10:31 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:10:31 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/10/09 19:10:31 [notice] 1#1: worker process 34 exited with code 0
+2021/10/09 19:10:31 [notice] 1#1: exit
+2021/10/09 19:10:59 [notice] 1#1: using the "epoll" event method
+2021/10/09 19:10:59 [notice] 1#1: nginx/1.20.1
+2021/10/09 19:10:59 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 19:10:59 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 19:10:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 19:10:59 [notice] 1#1: start worker processes
+2021/10/09 19:10:59 [notice] 1#1: start worker process 23
+2021/10/09 19:10:59 [notice] 1#1: start worker process 24
+2021/10/09 19:10:59 [notice] 1#1: start worker process 25
+2021/10/09 19:10:59 [notice] 1#1: start worker process 26
+2021/10/09 19:11:19 [error] 23#23: *3 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.96.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8808"
+2021/10/09 19:11:19 [error] 23#23: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.96.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8808", referrer: "http://127.0.0.1:8808/"
+2021/10/09 19:11:22 [error] 23#23: *3 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.96.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8808"
+2021/10/09 19:11:24 [error] 23#23: *3 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.96.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8808"
+2021/10/09 19:11:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 19:11:53 [notice] 24#24: gracefully shutting down
+2021/10/09 19:11:53 [notice] 25#25: gracefully shutting down
+2021/10/09 19:11:53 [notice] 23#23: gracefully shutting down
+2021/10/09 19:11:53 [notice] 26#26: gracefully shutting down
+2021/10/09 19:11:53 [notice] 25#25: exiting
+2021/10/09 19:11:53 [notice] 26#26: exiting
+2021/10/09 19:11:53 [notice] 25#25: exit
+2021/10/09 19:11:53 [notice] 26#26: exit
+2021/10/09 19:11:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 19:11:53 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 19:11:53 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 19:11:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:12:33 [notice] 1#1: using the "epoll" event method
+2021/10/09 19:12:33 [notice] 1#1: nginx/1.20.1
+2021/10/09 19:12:33 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 19:12:33 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 19:12:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 19:12:33 [notice] 1#1: start worker processes
+2021/10/09 19:12:33 [notice] 1#1: start worker process 23
+2021/10/09 19:12:33 [notice] 1#1: start worker process 24
+2021/10/09 19:12:33 [notice] 1#1: start worker process 25
+2021/10/09 19:12:33 [notice] 1#1: start worker process 26
+2021/10/09 19:12:37 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:12:38 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:12:39 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:12:39 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:12:39 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:12:39 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.128.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:14:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 19:14:18 [notice] 23#23: gracefully shutting down
+2021/10/09 19:14:18 [notice] 24#24: gracefully shutting down
+2021/10/09 19:14:18 [notice] 24#24: exiting
+2021/10/09 19:14:18 [notice] 26#26: gracefully shutting down
+2021/10/09 19:14:18 [notice] 25#25: gracefully shutting down
+2021/10/09 19:14:18 [notice] 23#23: exiting
+2021/10/09 19:14:18 [notice] 24#24: exit
+2021/10/09 19:14:18 [notice] 26#26: exiting
+2021/10/09 19:14:18 [notice] 25#25: exiting
+2021/10/09 19:14:18 [notice] 23#23: exit
+2021/10/09 19:14:18 [notice] 26#26: exit
+2021/10/09 19:14:18 [notice] 25#25: exit
+2021/10/09 19:14:18 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 19:14:18 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 19:14:18 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:14:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 19:14:18 [notice] 1#1: worker process 23 exited with code 0
+2021/10/09 19:14:18 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 19:14:18 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/09 19:14:18 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 19:14:18 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:14:18 [notice] 1#1: exit
+2021/10/09 19:14:47 [notice] 1#1: using the "epoll" event method
+2021/10/09 19:14:47 [notice] 1#1: nginx/1.20.1
+2021/10/09 19:14:47 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 19:14:47 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 19:14:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 19:14:47 [notice] 1#1: start worker processes
+2021/10/09 19:14:47 [notice] 1#1: start worker process 22
+2021/10/09 19:14:47 [notice] 1#1: start worker process 23
+2021/10/09 19:14:47 [notice] 1#1: start worker process 24
+2021/10/09 19:14:47 [notice] 1#1: start worker process 25
+2021/10/09 19:14:52 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.144.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.144.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:14:53 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.144.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.144.2:9000", host: "127.0.0.1:8808"
+2021/10/09 19:18:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 19:18:29 [notice] 22#22: gracefully shutting down
+2021/10/09 19:18:29 [notice] 22#22: exiting
+2021/10/09 19:18:29 [notice] 23#23: gracefully shutting down
+2021/10/09 19:18:29 [notice] 23#23: exiting
+2021/10/09 19:18:29 [notice] 24#24: gracefully shutting down
+2021/10/09 19:18:29 [notice] 24#24: exiting
+2021/10/09 19:18:29 [notice] 25#25: gracefully shutting down
+2021/10/09 19:18:29 [notice] 22#22: exit
+2021/10/09 19:18:29 [notice] 23#23: exit
+2021/10/09 19:18:29 [notice] 24#24: exit
+2021/10/09 19:18:29 [notice] 25#25: exiting
+2021/10/09 19:18:29 [notice] 25#25: exit
+2021/10/09 19:18:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/10/09 19:18:29 [notice] 1#1: worker process 22 exited with code 0
+2021/10/09 19:18:29 [notice] 1#1: worker process 23 exited with code 0
+2021/10/09 19:18:29 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 19:18:29 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 19:18:29 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 19:18:29 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 19:18:29 [notice] 1#1: exit
+2021/10/09 19:19:09 [notice] 1#1: using the "epoll" event method
+2021/10/09 19:19:09 [notice] 1#1: nginx/1.20.1
+2021/10/09 19:19:09 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 19:19:09 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 19:19:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 19:19:09 [notice] 1#1: start worker processes
+2021/10/09 19:19:09 [notice] 1#1: start worker process 23
+2021/10/09 19:19:09 [notice] 1#1: start worker process 24
+2021/10/09 19:19:09 [notice] 1#1: start worker process 25
+2021/10/09 19:19:09 [notice] 1#1: start worker process 26
+2021/10/09 20:13:39 [notice] 41#41: signal process started
+2021/10/09 20:13:39 [notice] 1#1: signal 1 (SIGHUP) received from 41, reconfiguring
+2021/10/09 20:13:39 [notice] 1#1: reconfiguring
+2021/10/09 20:13:39 [notice] 1#1: using the "epoll" event method
+2021/10/09 20:13:39 [notice] 1#1: start worker processes
+2021/10/09 20:13:39 [notice] 1#1: start worker process 48
+2021/10/09 20:13:39 [notice] 1#1: start worker process 49
+2021/10/09 20:13:39 [notice] 1#1: start worker process 50
+2021/10/09 20:13:39 [notice] 1#1: start worker process 51
+2021/10/09 20:13:39 [notice] 23#23: gracefully shutting down
+2021/10/09 20:13:39 [notice] 25#25: gracefully shutting down
+2021/10/09 20:13:39 [notice] 26#26: gracefully shutting down
+2021/10/09 20:13:39 [notice] 24#24: gracefully shutting down
+2021/10/09 20:13:39 [notice] 23#23: exiting
+2021/10/09 20:13:39 [notice] 25#25: exiting
+2021/10/09 20:13:39 [notice] 26#26: exiting
+2021/10/09 20:13:39 [notice] 24#24: exiting
+2021/10/09 20:13:39 [notice] 23#23: exit
+2021/10/09 20:13:39 [notice] 25#25: exit
+2021/10/09 20:13:39 [notice] 26#26: exit
+2021/10/09 20:13:39 [notice] 24#24: exit
+2021/10/09 20:13:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/09 20:13:39 [notice] 1#1: worker process 23 exited with code 0
+2021/10/09 20:13:39 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 20:13:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 20:13:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 20:13:39 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 20:13:39 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 20:13:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 20:15:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 20:15:37 [notice] 49#49: gracefully shutting down
+2021/10/09 20:15:37 [notice] 48#48: gracefully shutting down
+2021/10/09 20:15:37 [notice] 48#48: exiting
+2021/10/09 20:15:37 [notice] 51#51: gracefully shutting down
+2021/10/09 20:15:37 [notice] 51#51: exiting
+2021/10/09 20:15:37 [notice] 50#50: gracefully shutting down
+2021/10/09 20:15:37 [notice] 49#49: exiting
+2021/10/09 20:15:37 [notice] 48#48: exit
+2021/10/09 20:15:37 [notice] 51#51: exit
+2021/10/09 20:15:37 [notice] 50#50: exiting
+2021/10/09 20:15:37 [notice] 49#49: exit
+2021/10/09 20:15:37 [notice] 50#50: exit
+2021/10/09 20:15:37 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2021/10/09 20:15:37 [notice] 1#1: worker process 48 exited with code 0
+2021/10/09 20:15:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 20:15:37 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2021/10/09 20:15:37 [notice] 1#1: worker process 51 exited with code 0
+2021/10/09 20:15:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 20:15:37 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2021/10/09 20:15:37 [notice] 1#1: worker process 50 exited with code 0
+2021/10/09 20:15:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 20:15:37 [notice] 1#1: signal 17 (SIGCHLD) received from 49
+2021/10/09 20:15:37 [notice] 1#1: worker process 49 exited with code 0
+2021/10/09 20:15:37 [notice] 1#1: exit
+2021/10/09 20:16:15 [notice] 1#1: using the "epoll" event method
+2021/10/09 20:16:15 [notice] 1#1: nginx/1.20.1
+2021/10/09 20:16:15 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 20:16:15 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 20:16:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 20:16:15 [notice] 1#1: start worker processes
+2021/10/09 20:16:15 [notice] 1#1: start worker process 24
+2021/10/09 20:16:15 [notice] 1#1: start worker process 25
+2021/10/09 20:16:15 [notice] 1#1: start worker process 26
+2021/10/09 20:16:15 [notice] 1#1: start worker process 27
+2021/10/09 20:42:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/09 20:42:39 [notice] 25#25: gracefully shutting down
+2021/10/09 20:42:39 [notice] 24#24: gracefully shutting down
+2021/10/09 20:42:39 [notice] 27#27: gracefully shutting down
+2021/10/09 20:42:39 [notice] 26#26: gracefully shutting down
+2021/10/09 20:42:39 [notice] 25#25: exiting
+2021/10/09 20:42:39 [notice] 24#24: exiting
+2021/10/09 20:42:39 [notice] 27#27: exiting
+2021/10/09 20:42:39 [notice] 26#26: exiting
+2021/10/09 20:42:39 [notice] 25#25: exit
+2021/10/09 20:42:39 [notice] 24#24: exit
+2021/10/09 20:42:39 [notice] 27#27: exit
+2021/10/09 20:42:39 [notice] 26#26: exit
+2021/10/09 20:42:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/10/09 20:42:40 [notice] 1#1: worker process 25 exited with code 0
+2021/10/09 20:42:40 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 20:42:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/09 20:42:40 [notice] 1#1: worker process 24 exited with code 0
+2021/10/09 20:42:40 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/09 20:42:40 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/10/09 20:42:40 [notice] 1#1: worker process 26 exited with code 0
+2021/10/09 20:42:40 [notice] 1#1: worker process 27 exited with code 0
+2021/10/09 20:42:40 [notice] 1#1: exit
+2021/10/09 20:43:27 [notice] 1#1: using the "epoll" event method
+2021/10/09 20:43:27 [notice] 1#1: nginx/1.20.1
+2021/10/09 20:43:27 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 20:43:27 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 20:43:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 20:43:27 [notice] 1#1: start worker processes
+2021/10/09 20:43:27 [notice] 1#1: start worker process 23
+2021/10/09 20:43:27 [notice] 1#1: start worker process 24
+2021/10/09 20:43:27 [notice] 1#1: start worker process 25
+2021/10/09 20:43:27 [notice] 1#1: start worker process 26
+2021/10/09 20:51:27 [notice] 1#1: using the "epoll" event method
+2021/10/09 20:51:27 [notice] 1#1: nginx/1.20.1
+2021/10/09 20:51:27 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/10/09 20:51:27 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/10/09 20:51:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/09 20:51:27 [notice] 1#1: start worker processes
+2021/10/09 20:51:27 [notice] 1#1: start worker process 23
+2021/10/09 20:51:27 [notice] 1#1: start worker process 24
+2021/10/09 20:51:27 [notice] 1#1: start worker process 25
+2021/10/09 20:51:27 [notice] 1#1: start worker process 26
