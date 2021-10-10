@@ -5,4 +5,4 @@
 !/**/*.gitkeep
 !/docker/nginx/vhost/default.conf
 !/docker/nginx/vhost/phpsysinfo.conf
-!/sites/*.html
+!/sites/default

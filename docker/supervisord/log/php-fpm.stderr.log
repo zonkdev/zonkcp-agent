@@ -658,3 +658,11 @@
 [10-Oct-2021 07:47:29] NOTICE: exiting, bye-bye!
 [10-Oct-2021 07:48:01] NOTICE: fpm is running, pid 7
 [10-Oct-2021 07:48:01] NOTICE: ready to handle connections
+[10-Oct-2021 08:48:06] NOTICE: Terminating ...
+[10-Oct-2021 08:48:06] NOTICE: exiting, bye-bye!
+[10-Oct-2021 08:49:51] NOTICE: fpm is running, pid 8
+[10-Oct-2021 08:49:51] NOTICE: ready to handle connections
+[10-Oct-2021 08:50:52] NOTICE: Terminating ...
+[10-Oct-2021 08:50:52] NOTICE: exiting, bye-bye!
+[10-Oct-2021 08:51:12] NOTICE: fpm is running, pid 7
+[10-Oct-2021 08:51:12] NOTICE: ready to handle connections

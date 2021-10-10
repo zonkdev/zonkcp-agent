@@ -14,7 +14,7 @@ services:
       dockerfile: ./docker/nginx/.dockerfile
     container_name: nginx
     ports:
-      - 8808:8808
+      - 8888:8888
       - 80:80
     volumes:
       - ./sites:/var/www/html:delegated
