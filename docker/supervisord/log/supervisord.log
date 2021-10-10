@@ -122,3 +122,20 @@
 2021-10-09 20:51:23,556 INFO supervisord started with pid 1
 2021-10-09 20:51:24,565 INFO spawned: 'php-fpm_00' with pid 8
 2021-10-09 20:51:25,602 INFO success: php-fpm_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-10 06:50:04,982 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-10 06:50:04,983 INFO Included extra file "/etc/supervisor.d/php-fpm.ini" during parsing
+2021-10-10 06:50:05,004 INFO RPC interface 'supervisor' initialized
+2021-10-10 06:50:05,005 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-10-10 06:50:05,007 INFO supervisord started with pid 1
+2021-10-10 06:50:06,015 INFO spawned: 'php-fpm_00' with pid 7
+2021-10-10 06:50:07,139 INFO success: php-fpm_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-10 06:56:51,614 WARN received SIGQUIT indicating exit request
+2021-10-10 06:56:51,616 INFO waiting for php-fpm_00 to die
+2021-10-10 06:56:51,624 INFO stopped: php-fpm_00 (exit status 0)
+2021-10-10 06:57:22,535 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-10 06:57:22,536 INFO Included extra file "/etc/supervisor.d/php-fpm.ini" during parsing
+2021-10-10 06:57:22,543 INFO RPC interface 'supervisor' initialized
+2021-10-10 06:57:22,544 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-10-10 06:57:22,545 INFO supervisord started with pid 1
+2021-10-10 06:57:23,553 INFO spawned: 'php-fpm_00' with pid 7
+2021-10-10 06:57:24,585 INFO success: php-fpm_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

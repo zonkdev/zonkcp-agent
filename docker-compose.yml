@@ -11,7 +11,7 @@ services:
   nginx:
     build:
       context: .
-      dockerfile: ./docker/nginx.dockerfile
+      dockerfile: ./docker/nginx/.dockerfile
     container_name: nginx
     ports:
       - 8808:8808
@@ -19,7 +19,7 @@ services:
     volumes:
       - ./sites:/var/www/html:delegated
       - ./helpers:/usr/share/nginx/html:delegated
-      - ./docker/nginx/conf:/etc/nginx/conf.d:delegated
+      - ./docker/nginx/vhost:/etc/nginx/conf.d:delegated
       - ./docker/nginx/log:/var/log/nginx:delegated
     depends_on:
       - php
@@ -29,7 +29,7 @@ services:
   php:
     build:
       context: .
-      dockerfile: ./docker/php.dockerfile
+      dockerfile: ./docker/php/.dockerfile
     container_name: php
     volumes:
       - ./helpers:/usr/share/nginx/html:delegated

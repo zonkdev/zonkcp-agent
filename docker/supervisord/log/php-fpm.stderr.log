@@ -619,3 +619,38 @@
 192.168.208.3 -  09/Oct/2021:21:10:28 +0000 "GET /xml.php" 200
 192.168.208.3 -  09/Oct/2021:21:10:28 +0000 "GET /xml.php" 200
 192.168.208.3 -  09/Oct/2021:21:10:27 +0000 "GET /xml.php" 200
+[09-Oct-2021 21:40:45] NOTICE: Terminating ...
+[09-Oct-2021 21:40:45] NOTICE: exiting, bye-bye!
+[10-Oct-2021 06:50:06] NOTICE: fpm is running, pid 7
+[10-Oct-2021 06:50:06] NOTICE: ready to handle connections
+[10-Oct-2021 06:56:51] NOTICE: Terminating ...
+[10-Oct-2021 06:56:51] NOTICE: exiting, bye-bye!
+[10-Oct-2021 06:57:23] NOTICE: fpm is running, pid 7
+[10-Oct-2021 06:57:23] NOTICE: ready to handle connections
+172.20.0.3 -  10/Oct/2021:06:58:38 +0000 "GET /index.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:38 +0000 "GET /index.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:38 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:38 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:38 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /js.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /xml.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /xml.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /xml.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /xml.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /language/language.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /xml.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /language/language.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /language/language.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /language/language.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /language/language.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:39 +0000 "GET /xml.php" 200
+172.20.0.3 -  10/Oct/2021:06:58:40 +0000 "GET /language/language.php" 200
